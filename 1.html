@@ -1,17 +1,36 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>족저근막염</title>
+<title>책으로 놀기</title>
 <meta charset="utf-8">
+<link href="https://hangeul.pstatic.net/hangeul_static/css/maru-buri.css" rel="stylesheet">
+<style>
+	#grid{display: grid; grid-template-columns: 300px 1fr;border-bottom: 5px green solid;}
+	#article{padding-left: 30px}
+	a{color: black; text-decoration: none}
+	h1{font-family: 'MaruBuriBold';font-size: 50px; border-bottom: 5px green solid; padding: 20px; text-align: center; margin: 0px;}
+	a, h2, p{font-family: 'MaruBuri';}
+	#grid ol{border-right: 5px green solid; width: 170px; margin: 0px; padding: 20px; padding-left: 50px; font-size: 20px;}
+	body{margin: 0px}
+	@media (max-width: 800px) {
+		#grid {display: block; border-bottom: none}
+		#grid ol {border-right: none}
+		h1 {border-bottom: none}
+		}
+</style>
 </head>
 <body>
-	<h1><a href="index.html">바로바디의원 칼럼</a></h1>
-	<ol>
-		<li><a href="1.html">족저근막염, 우습다.</a></li>
-		<li><a href="2.html">오십견, 무엇인가?</a></li>
-		<li><a href="3.html">테니스엘보우, 그 모든 것</a></li>
-	</ol><br>
-	<h2>족저근막염, 우습다.</h2>
-<p style="margin-top:40px">족저근막염, 내가 다 치료한다.</p>
+	<h1><a href="index.html">뭐 하고 놀까?</a></h1>
+	<div id="grid">
+		<ol>
+			<li><a href="1.html" style="color: red;">책으로 놀기</a></li>
+			<li><a href="2.html">땀으로 놀기</a></li>
+			<li><a href="3.html">일하며 놀기</a></li>
+		</ol>
+		<div id="article">
+			<h2>책으로 놀기</h2>
+			<p style="margin-top:40px">책을 잘 읽는 방법은 읽고 또 다시 읽는 것. 행간을 읽는 유일한 방법이다.</p>
+		</div>
+	</div>
 </body>
 </html>
